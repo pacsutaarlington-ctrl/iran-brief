@@ -143,6 +143,20 @@ img {
   box-shadow: var(--shadow);
 }
 
+.section-title-block {
+  margin: 0 0 20px;
+}
+
+.section-title-block h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 800;
+}
+
+.section-gap {
+  margin-top: 44px;
+}
+
 .documents-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -165,6 +179,10 @@ img {
 
 .featured-card {
   border-color: rgba(139, 30, 45, 0.22);
+}
+
+.cultural-card {
+  border-color: rgba(126, 98, 46, 0.18);
 }
 
 .doc-cover {
