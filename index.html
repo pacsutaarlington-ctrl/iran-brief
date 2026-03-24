@@ -10,25 +10,49 @@
   />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="page-shell">
+    <div class="nowruz-banner">
+      <img src="assets/images/nowruz-header.jpg" alt="Happy Nowruz" />
+      <div class="nowruz-overlay">
+        <div class="nowruz-text">
+          <span class="nowruz-kicker">Nowruz Mubarak</span>
+          <h2>Happy Nowruz</h2>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
       <header class="hero">
-        <h1>Understanding the Current Situation in Iran</h1>
-        <p class="hero-text">
-          Background materials for readers seeking historical context, current framing, and deeper reference documents.
-        </p>
+        <div class="hero-copy">
+          <h1>Understanding the Current Situation in Iran</h1>
+          <p class="hero-text">
+            Background materials for readers seeking historical context, current framing, and deeper reference documents.
+          </p>
+        </div>
+        <div class="hero-image">
+          <img src="assets/images/hero-city.jpg" alt="City view in Iran" />
+        </div>
       </header>
+
+      <section class="visual-ribbon">
+        <img src="assets/images/culture-1.jpg" alt="Iranian architecture" />
+        <img src="assets/images/culture-2.jpg" alt="Iranian cultural landmark" />
+      </section>
 
       <main>
         <section class="documents-grid">
           <article class="doc-card">
-            <div class="doc-cover cover-timeline">
-              <div class="cover-badge">Timeline</div>
-              <div class="cover-title">Protest & Repression</div>
+            <div class="doc-cover image-cover">
+              <img src="assets/images/timeline-cover.jpg" alt="People gathered in protest at night" />
+              <div class="cover-overlay"></div>
+              <div class="cover-content">
+                <div class="cover-badge">Timeline</div>
+                <div class="cover-title">Protest &amp; Repression</div>
+              </div>
             </div>
             <div class="doc-body">
               <h2>Iran: A Timeline of Protest and Repression</h2>
@@ -47,9 +71,13 @@
           </article>
 
           <article class="doc-card">
-            <div class="doc-cover cover-war">
-              <div class="cover-badge">Current Context</div>
-              <div class="cover-title">Iran and the War</div>
+            <div class="doc-cover image-cover">
+              <img src="assets/images/war-cover.jpg" alt="Map of Iran in the region" />
+              <div class="cover-overlay"></div>
+              <div class="cover-content">
+                <div class="cover-badge">Current Context</div>
+                <div class="cover-title">Iran and the War</div>
+              </div>
             </div>
             <div class="doc-body">
               <h2>Why Some Iranians See This Moment Differently</h2>
@@ -68,9 +96,13 @@
           </article>
 
           <article class="doc-card">
-            <div class="doc-cover cover-symbol">
-              <div class="cover-badge">Movement</div>
-              <div class="cover-title">Lion &amp; Sun</div>
+            <div class="doc-cover image-cover">
+              <img src="assets/images/lion-sun-cover.jpg" alt="Lion and Sun flag" />
+              <div class="cover-overlay"></div>
+              <div class="cover-content">
+                <div class="cover-badge">Movement</div>
+                <div class="cover-title">Lion &amp; Sun</div>
+              </div>
             </div>
             <div class="doc-body">
               <h2>Iran Today: The Lion &amp; Sun Revolution</h2>
@@ -89,9 +121,13 @@
           </article>
 
           <article class="doc-card featured-card">
-            <div class="doc-cover cover-master">
-              <div class="cover-badge">Background Brief</div>
-              <div class="cover-title">Master Document</div>
+            <div class="doc-cover image-cover">
+              <img src="assets/images/master-cover.jpg" alt="Interior of a historic mosque in Iran" />
+              <div class="cover-overlay"></div>
+              <div class="cover-content">
+                <div class="cover-badge">Background Brief</div>
+                <div class="cover-title">Master Document</div>
+              </div>
             </div>
             <div class="doc-body">
               <h2>Long-Form Background Brief</h2>
